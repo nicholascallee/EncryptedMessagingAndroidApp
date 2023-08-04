@@ -10,6 +10,6 @@ This structure was setup with state hoisting in mind. I chose to do this because
 
 Also uploading a powerpoint i have made to keep track of what needs done.
 
-Current main screen: 
+Current main screen:
 ![image](https://github.com/nicholascallee/EncryptedMessagingAndroidApp/assets/141438641/00b95b25-04f7-4124-83eb-f131992f0e4e)
 
