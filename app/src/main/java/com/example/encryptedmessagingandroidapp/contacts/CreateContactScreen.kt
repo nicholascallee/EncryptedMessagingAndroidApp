@@ -1,15 +1,10 @@
 package com.example.encryptedmessagingandroidapp.contacts
 
-import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material.MaterialTheme.colors
-import androidx.compose.material.SnackbarDefaults.backgroundColor
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -23,10 +18,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.draw.paint
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.painter.Painter
-import androidx.compose.ui.modifier.modifierLocalConsumer
 import androidx.compose.ui.unit.dp
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -47,9 +39,7 @@ fun CreateContactScreen (
         mutableStateOf(createPubKey)
     }
 
-
     Column {
-
         Text(text = "Contact Name:", modifier = modifier.align(Alignment.CenterHorizontally))
         TextField(
             value =  localContactName,
@@ -63,7 +53,6 @@ fun CreateContactScreen (
         )
 
         Text(text = "Contact Public Key:", modifier = modifier.align(Alignment.CenterHorizontally))
-
         TextField(
             value = localPubKey,
             onValueChange = {
@@ -90,9 +79,7 @@ fun CreateContactScreen (
         ) {
             Text(text = "finish contact creation",
                 modifier = Modifier)
-
         }
-
 
         Button(
             onClick = {
@@ -108,7 +95,6 @@ fun CreateContactScreen (
             Text(text = "Cancel contact creation",
                 modifier = Modifier
             )
-
         }
     }
 }

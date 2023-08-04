@@ -1,7 +1,5 @@
 package com.example.encryptedmessagingandroidapp.utils
 
-
-
 import android.util.Base64
 import java.security.KeyFactory
 import java.security.PrivateKey

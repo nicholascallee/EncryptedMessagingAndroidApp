@@ -1,6 +1,5 @@
 package com.example.encryptedmessagingandroidapp
 
-
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -89,9 +88,6 @@ fun customNavHost(
     }
 
 }
-
-
-
 
 fun NavHostController.navigateSingleTopTo(route: String) =
     this.navigate(route) { launchSingleTop = true }

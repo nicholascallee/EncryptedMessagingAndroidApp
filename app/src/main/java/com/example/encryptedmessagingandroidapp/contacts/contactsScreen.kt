@@ -31,7 +31,6 @@ import androidx.compose.ui.unit.sp
 import com.example.encryptedmessagingandroidapp.data.Contact
 import com.example.encryptedmessagingandroidapp.data.CustomContactList
 
-
 @Composable
 fun contactsScreen(
     onClickContactButton: () -> Unit,
@@ -79,11 +78,6 @@ fun circleAddButton(
         }
     }
 }
-
-
-
-
-
 
 @Composable
 fun contactItem(
