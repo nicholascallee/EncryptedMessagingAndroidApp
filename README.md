@@ -9,3 +9,7 @@ The application structure is below:
 This structure was setup with state hoisting in mind. I chose to do this because it lowers complexity and brings data changes to a single point of authority. so far i have implemented the contact details list. It currently does not store any data after the app closes and re-opens. My plan is to use roomdb which is a wrapper of an sql server. Here i will store the account info for each contact (name and public key).
 
 Also uploading a powerpoint i have made to keep track of what needs done.
+
+Current main screen: 
+![image](https://github.com/nicholascallee/EncryptedMessagingAndroidApp/assets/141438641/00b95b25-04f7-4124-83eb-f131992f0e4e)
+
