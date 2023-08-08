@@ -13,3 +13,4 @@ Also uploading a powerpoint i have made to keep track of what needs done.
 Current main screen:
 ![image](https://github.com/nicholascallee/EncryptedMessagingAndroidApp/assets/141438641/00b95b25-04f7-4124-83eb-f131992f0e4e)
 
+8/7/2023, 8:59: I have added skeleton code for all pages. contact detail page filled with place for contact details and buttons for encrypt and decrypt. encrypt and decrypt have text boxes and buttons for their respective jobs. buttons not working yet.
